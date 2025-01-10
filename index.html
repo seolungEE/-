@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메인메뉴</title>
+    <style>
+        body{
+            background-color: beige;
+            text-align: center;
+        }
+        button{
+            width: 100px;
+            height: 50px;
+            margin-bottom: 10px;
+            background-color: lightgreen;
+        }
+
+        .container{
+            height: 100vh; /* 화면 전체 높이 차지 */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+    </style>
+</head>
+<body>
+    <br><br><br><br><br><br><br><h1>세상에서 제일 어려운 게임!!</h1>
+    <br><br><br><br><br><br>
+    <a href="./ingame.html">
+        <button id="play">놀이</button>
+    </a>
+    <br>
+    <a href="./lb.html">
+        <button id="lb">리더보드</button>
+    </a>
+    <br>
+    <a href="./config.html">
+        <button id="config">설정</button>
+    </a>
+    <br>
+    <a href="https://www.google.com/">
+        <button id="exit">종료</button>
+    </a>
+
+    <script src="./index.js"></script>
+</body>
+</html>

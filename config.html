@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>설정</title>
+    <style>
+        body {
+            transition: background-color 0.5s ease;
+            background-color: beige;
+        }
+        .container{
+            height: 100vh; /* 화면 전체 높이 차지 */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        button{
+            width: 100px;
+            height: 25px;
+            margin-bottom: 10px;
+            background-color: white;
+        }
+        input{
+            width: 175px;
+            height: 25px;
+            margin-bottom: 10px;
+            background-color: white;
+        }
+        .bt1{
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class=>배경색 변경하기</h1>
+        <input type="text" id="colorInput" placeholder="색상을 입력하세요" />
+        <button onclick="changeBackgroundColor()">배경색 변경</button>
+        <a href="./index.html">
+            <button class="bt1">메인메뉴로 돌아가기</button>
+        </a>
+        <br><br><br>
+        <button onclick="ReSeT()">게임 초기화</button>
+    </div>
+
+    <script src="./config.js"></script>
+</body>
+</html>

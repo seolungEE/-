@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>클릭!!</title>
+    <style>
+        body{
+            background-color: beige;
+            text-align: center;
+        }
+        button{
+            width: 100px;
+            height: 50px;
+            margin-bottom: 10px;
+            background-color: lightgreen;
+        }
+
+        .container{
+            height: 100vh; /* 화면 전체 높이 차지 */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="left-time">남은시간 : 10초</div>
+        <br>
+        <div id="point">점수 : 0</div>
+        <button id="point-btn">게임 시작</button>
+        <a href="./index.html">
+            <button>메인메뉴로 돌아가기</button>
+        </a>
+    </div>
+
+<script src="./ingame.js"></script>
+</body>
+</html>
